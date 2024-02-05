@@ -1,0 +1,22 @@
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+final connectionIconProvider = Provider<String>((ref) => "assets/icons/connection.svg");
+final doctorIconProvider = Provider<String>((ref) => "assets/icons/doctor.svg");
+final experienceIconProvider = Provider<String>((ref) => "assets/icons/experience.svg");
+final homeIconProvider = Provider<String>((ref) => "assets/icons/home.svg");
+final lockIconProvider = Provider<String>((ref) => "assets/icons/lock.svg");
+final logoIconProvider = Provider<String>((ref) => "assets/icons/logo.svg");
+final logo2IconProvider = Provider<String>((ref) => "assets/icons/logo2.svg");
+final logoTextIconProvider = Provider<String>((ref) => "assets/icons/logoText.svg");
+final medicationIconProvider = Provider<String>((ref) => "assets/icons/medication.svg");
+final noInternetIconProvider = Provider<String>((ref) => "assets/icons/noInternet.svg");
+final otpIconProvider = Provider<String>((ref) => "assets/icons/OTP.svg");
+final passwordIconProvider = Provider<String>((ref) => "assets/icons/password.svg");
+final personIconProvider = Provider<String>((ref) => "assets/icons/person.svg");
+final pharmacyIconProvider = Provider<String>((ref) => "assets/icons/pharmacy.svg");
+final profileIconProvider = Provider<String>((ref) => "assets/icons/profile.svg");
+final resetIconProvider = Provider<String>((ref) => "assets/icons/reset.svg");
+final searchIconProvider = Provider<String>((ref) => "assets/icons/search.svg");
+final signUpIconProvider = Provider<String>((ref) => "assets/icons/signUp.svg");
+final verifiedIconProvider = Provider<String>((ref) => "assets/icons/verified.svg");
+final welcomeIconProvider = Provider<String>((ref) => "assets/icons/welcome.svg");
